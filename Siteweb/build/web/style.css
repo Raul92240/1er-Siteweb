@@ -1,0 +1,198 @@
+body{
+	background-color :  #CEECF5;
+       
+}
+
+.map__image{
+
+	width: 50%;
+	float: right;
+}
+
+.map__image path{
+	fill: #013ADF;
+	stroke: #fff;
+	stroke-width:0.5px;
+	transition: fill 0.3s;
+}
+
+.map__image .is-active path{
+	fill: #0B0B61;	
+}
+
+.map__list a{
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.3s;
+	font-family:georgia;
+}
+
+.map__list{
+	float: left;
+	width: 50%;
+	font-size: 120%;
+	text-align: right;
+}
+
+.map__list a.is-active{
+	color: #0B0B61;
+	text-decoration: underline;
+}
+
+header{
+	background-color: #013ADF;
+	font-size: 28px;
+	line-height: 50px;
+	margin: 0 250px 0 250px;
+	margin-top:200px;
+
+}
+
+footer{
+	background-color: grey;
+	margin: 0 250px 0 250px;
+ 
+      
+}
+
+.map{
+	overflow: hidden;
+	margin: 0 250px 0 250px;
+}
+
+div.Bandeau ul li.btn-bandeau{
+	list-style-type: none;
+	display: inline-block;
+}
+
+div.Bandeau ul li.btn-bandeau a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-family:georgia;
+}
+
+div.Bandeau ul li.btn-bandeau:hover a{
+	text-decoration:underline;
+}
+
+div.map__list ul li.btn-list{
+	list-style-type: none;
+}
+
+
+.form_inscription{
+	margin: 0 700px 0 700px;
+
+}
+	
+
+.form_inscription input{
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: none;
+}
+
+.form_inscription input[type=submit]{
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	background-color:  #013ADF;
+	color: white;
+	font-family:georgia;
+}
+
+.link_connexion{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.link_inscription{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.form_connexion{
+
+	width: 450px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.form_connexion input{
+	width: 400px;
+	height: 35px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border:1px solid silver;
+	padding: 5px;
+}
+
+.Btn_login{
+	background-color:  #013ADF;
+	color: white;
+	font-family:georgia;
+	font-size: 10px;
+	padding: 10px;
+	border:none;
+}
+
+
+
+.Categorie{
+ float: left;
+ width: 12%;
+    background-color: #013ADF;
+margin: 0 0px 0 250px;
+}
+
+.AnnonceBDD{
+    
+margin: 0 250px 0 250px;
+
+}
+
+.btn-categorie{
+    color:white;
+   
+      
+}
+
+.form_depot{
+    width: 450px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.form_depot input{
+    display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: none;
+}
+
+.AnnonceBDDIDF{
+    
+margin: 0 250px 0 250px;
+
+}
+
+.form_depot input[type=submit]{
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	background-color:  #013ADF;
+	color: white;
+	font-family:georgia;
+}
+
+.btn-categorie a{
+    color: white;
+   text-decoration: none;
+}
