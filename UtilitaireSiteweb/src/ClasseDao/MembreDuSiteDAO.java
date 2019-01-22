@@ -1,6 +1,4 @@
 // ==========================================================================
-// package daoJdbcMapping                                      Projet Mapping
-// --------------------------------------------------------------------------
 // CLASSE ContactDAO
 // ==========================================================================
 package ClasseDao;
@@ -20,7 +18,7 @@ public class MembreDuSiteDAO
 // PROPRIETES
 // ==========================================================================
 // --------------------------------------------------------------------------
-// Acces a la base de donnees liee a la table CONTACT
+// Acces a la base de donnees liee a la table MEMBREDUSITE
 // --------------------------------------------------------------------------
     private AccesBase accesBase;
 
@@ -43,7 +41,7 @@ public class MembreDuSiteDAO
     }
 
 // --------------------------------------------------------------------------
-// Lecture d'un objet Contact (dont la clef est renseignee)
+// Lecture d'un objet membredusite (dont la clef est renseignee)
 // --------------------------------------------------------------------------
     public void lire(MembreDuSite membredusite) throws SQLException
     {
@@ -90,7 +88,7 @@ public class MembreDuSiteDAO
     }
 
 // --------------------------------------------------------------------------
-// Creation (insert) d'un objet Contact
+// Creation (insert) d'un objet membredusite
 // --------------------------------------------------------------------------
     public int creer(MembreDuSite membredusite) throws SQLException
     {
@@ -119,7 +117,7 @@ public class MembreDuSiteDAO
     }
 
 // --------------------------------------------------------------------------
-// Modification (update) d'un objet Contact
+// Modification (update) d'un objet membredusite
 // --------------------------------------------------------------------------
     public int modifier(MembreDuSite membredusite) throws SQLException
     {
@@ -147,7 +145,7 @@ public class MembreDuSiteDAO
     }
 
 // --------------------------------------------------------------------------
-// Destruction (delete) d'un objet Contact
+// Destruction (delete) d'un objet membredusite
 // --------------------------------------------------------------------------
     public int detruire(MembreDuSite membredusite) throws SQLException
     {
@@ -165,7 +163,7 @@ public class MembreDuSiteDAO
 
 
 // --------------------------------------------------------------------------
-// Liste des contacts
+// Liste des membredusite
 // --------------------------------------------------------------------------
     public Vector<MembreDuSite> lireListe() throws SQLException
     {
@@ -203,7 +201,7 @@ public class MembreDuSiteDAO
     }
 
 // --------------------------------------------------------------------------
-// Liste des colonnes de la table CONTACT
+// Liste des colonnes de la table membredusite
 // --------------------------------------------------------------------------
     public Vector<Colonne> getListeColonnes()
     {

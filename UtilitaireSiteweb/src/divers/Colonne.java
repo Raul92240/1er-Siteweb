@@ -1,6 +1,4 @@
 // ==========================================================================
-// package divers
-// --------------------------------------------------------------------------
 // CLASSE Colonne : description des colonnes d'une table.
 //                  Pour un affichage graphique, dans une JTable par exemple.
 //                  Pour une lecture dans une BDD, en jdbc par exemple.
@@ -37,7 +35,7 @@ public class Colonne implements java.io.Serializable
     }
 
 // --------------------------------------------------------------------------
-// SETERS
+// SETTERS
 // --------------------------------------------------------------------------
     public void setNom(String nom)
     {
@@ -60,7 +58,7 @@ public class Colonne implements java.io.Serializable
     }
 
 // --------------------------------------------------------------------------
-// GETERS
+// GETTERS
 // --------------------------------------------------------------------------
     public String getNom()
     {

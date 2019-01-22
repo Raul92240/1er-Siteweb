@@ -1,6 +1,4 @@
 // ==========================================================================
-// package daoJdbcMapping                                      Projet Mapping
-// --------------------------------------------------------------------------
 // CLASSE ContactDAO
 // ==========================================================================
 package ClasseDao;
@@ -20,7 +18,7 @@ public class TypeCompteDAO
 // PROPRIETES
 // ==========================================================================
 // --------------------------------------------------------------------------
-// Acces a la base de donnees liee a la table CONTACT
+// Acces a la base de donnees liee a la table TypeCompte
 // --------------------------------------------------------------------------
     private AccesBase accesBase;
 
@@ -43,7 +41,7 @@ public class TypeCompteDAO
     }
 
 // --------------------------------------------------------------------------
-// Lecture d'un objet Contact (dont la clef est renseignee)
+// Lecture d'un objet TypeCompte (dont la clef est renseignee)
 // --------------------------------------------------------------------------
     public void lire(TypeCompte typecompte) throws SQLException
     {
@@ -87,7 +85,7 @@ public class TypeCompteDAO
     }
 
 // --------------------------------------------------------------------------
-// Creation (insert) d'un objet Contact
+// Creation (insert) d'un objet TypeCompte
 // --------------------------------------------------------------------------
     public int creer(TypeCompte typecompte) throws SQLException
     {
@@ -109,7 +107,7 @@ public class TypeCompteDAO
     }
 
 // --------------------------------------------------------------------------
-// Modification (update) d'un objet Contact
+// Modification (update) d'un objet TypeCompte
 // --------------------------------------------------------------------------
     public int modifier(TypeCompte typecompte) throws SQLException
     {
@@ -132,7 +130,7 @@ public class TypeCompteDAO
     }
 
 // --------------------------------------------------------------------------
-// Destruction (delete) d'un objet Contact
+// Destruction (delete) d'un objet TypeCompte
 // --------------------------------------------------------------------------
     public int detruire(TypeCompte typecompte) throws SQLException
     {
@@ -150,7 +148,7 @@ public class TypeCompteDAO
 
 
 // --------------------------------------------------------------------------
-// Liste des contacts
+// Liste des TypeCompte
 // --------------------------------------------------------------------------
     public Vector<TypeCompte> lireListe() throws SQLException
     {
@@ -185,7 +183,7 @@ public class TypeCompteDAO
     }
 
 // --------------------------------------------------------------------------
-// Liste des colonnes de la table CONTACT
+// Liste des colonnes de la table TypeCompte
 // --------------------------------------------------------------------------
     public Vector<Colonne> getListeColonnes()
     {

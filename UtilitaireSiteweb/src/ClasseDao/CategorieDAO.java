@@ -1,6 +1,4 @@
 // ==========================================================================
-// package daoJdbcMapping                                      Projet Mapping
-// --------------------------------------------------------------------------
 // CLASSE ContactDAO
 // ==========================================================================
 package ClasseDao;
@@ -20,7 +18,7 @@ public class CategorieDAO
 // PROPRIETES
 // ==========================================================================
 // --------------------------------------------------------------------------
-// Acces a la base de donnees liee a la table CONTACT
+// Acces a la base de donnees liee a la table CATEGORIE
 // --------------------------------------------------------------------------
     private AccesBase accesBase;
 
@@ -86,7 +84,7 @@ public class CategorieDAO
     }
 
 // --------------------------------------------------------------------------
-// Creation (insert) d'un objet Contact
+// Creation (insert) d'un objet Categorie
 // --------------------------------------------------------------------------
     public int creer(Categorie categorie) throws SQLException
     {
@@ -108,7 +106,7 @@ public class CategorieDAO
     }
 
 // --------------------------------------------------------------------------
-// Modification (update) d'un objet Contact
+// Modification (update) d'un objet Categorie
 // --------------------------------------------------------------------------
     public int modifier(Categorie categorie) throws SQLException
     {
@@ -129,7 +127,7 @@ public class CategorieDAO
     }
 
 // --------------------------------------------------------------------------
-// Destruction (delete) d'un objet Contact
+// Destruction (delete) d'un objet Categorie
 // --------------------------------------------------------------------------
     public int detruire(Categorie categorie) throws SQLException
     {
@@ -147,7 +145,7 @@ public class CategorieDAO
 
 
 // --------------------------------------------------------------------------
-// Liste des contacts
+// Liste des categories
 // --------------------------------------------------------------------------
     public Vector<Categorie> lireListe() throws SQLException
     {
@@ -182,7 +180,7 @@ public class CategorieDAO
     }
 
 // --------------------------------------------------------------------------
-// Liste des colonnes de la table CONTACT
+// Liste des colonnes de la table CATEGORIE
 // --------------------------------------------------------------------------
     public Vector<Colonne> getListeColonnes()
     {

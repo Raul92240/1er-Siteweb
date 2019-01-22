@@ -1,7 +1,5 @@
 // ==========================================================================
-// package daoJdbcMapping                                      Projet Mapping
-// --------------------------------------------------------------------------
-// CLASSE ContactDAO
+// CLASSE AnnonceDAO
 // ==========================================================================
 package ClasseDao;
 
@@ -20,7 +18,7 @@ public class AnnonceDAO
 // PROPRIETES
 // ==========================================================================
 // --------------------------------------------------------------------------
-// Acces a la base de donnees liee a la table CONTACT
+// Acces a la base de donnees liee a la table annonce
 // --------------------------------------------------------------------------
     private AccesBase accesBase;
 
@@ -43,7 +41,7 @@ public class AnnonceDAO
     }
 
 // --------------------------------------------------------------------------
-// Lecture d'un objet Contact (dont la clef est renseignee)
+// Lecture d'un objet annonce (dont la clef est renseignee)
 // --------------------------------------------------------------------------
     public void lire(Annonce annonce) throws SQLException
     {
@@ -91,7 +89,7 @@ public class AnnonceDAO
     }
 
 // --------------------------------------------------------------------------
-// Creation (insert) d'un objet Contact
+// Creation (insert) d'un objet annonce
 // --------------------------------------------------------------------------
     public int creer(Annonce annonce) throws SQLException
     {
@@ -123,7 +121,7 @@ public class AnnonceDAO
     }
 
 // --------------------------------------------------------------------------
-// Modification (update) d'un objet Contact
+// Modification (update) d'un objet annonce
 // --------------------------------------------------------------------------
     public int modifier(Annonce annonce) throws SQLException
     {
@@ -155,7 +153,7 @@ public class AnnonceDAO
     }
 
 // --------------------------------------------------------------------------
-// Destruction (delete) d'un objet Contact
+// Destruction (delete) d'un objet annonce
 // --------------------------------------------------------------------------
     public int detruire(Annonce annonce) throws SQLException
     {
@@ -173,7 +171,7 @@ public class AnnonceDAO
 
 
 // --------------------------------------------------------------------------
-// Liste des contacts
+// Liste des annonces
 // --------------------------------------------------------------------------
     public Vector<Annonce> lireListe() throws SQLException
     {

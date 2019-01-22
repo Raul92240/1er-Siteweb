@@ -1,6 +1,4 @@
 // ==========================================================================
-// package daoJdbcMapping                                      Projet Mapping
-// --------------------------------------------------------------------------
 // CLASSE ContactDAO
 // ==========================================================================
 package ClasseDao;
@@ -20,7 +18,7 @@ public class AvisDAO
 // PROPRIETES
 // ==========================================================================
 // --------------------------------------------------------------------------
-// Acces a la base de donnees liee a la table CONTACT
+// Acces a la base de donnees liee a la table AVIS
 // --------------------------------------------------------------------------
     private AccesBase accesBase;
 
@@ -43,7 +41,7 @@ public class AvisDAO
     }
 
 // --------------------------------------------------------------------------
-// Lecture d'un objet Contact (dont la clef est renseignee)
+// Lecture d'un objet Avis (dont la clef est renseignee)
 // --------------------------------------------------------------------------
     public void lire(Avis avis) throws SQLException
     {
@@ -90,7 +88,7 @@ public class AvisDAO
     }
 
 // --------------------------------------------------------------------------
-// Creation (insert) d'un objet Contact
+// Creation (insert) d'un objet Avis
 // --------------------------------------------------------------------------
     public int creer(Avis avis) throws SQLException
     {
@@ -118,7 +116,7 @@ public class AvisDAO
     }
 
 // --------------------------------------------------------------------------
-// Modification (update) d'un objet Contact
+// Modification (update) d'un objet Avis
 // --------------------------------------------------------------------------
     public int modifier(Avis avis) throws SQLException
     {
@@ -144,7 +142,7 @@ public class AvisDAO
     }
 
 // --------------------------------------------------------------------------
-// Destruction (delete) d'un objet Contact
+// Destruction (delete) d'un objet Avis
 // --------------------------------------------------------------------------
     public int detruire(Avis avis) throws SQLException
     {
@@ -162,7 +160,7 @@ public class AvisDAO
 
 
 // --------------------------------------------------------------------------
-// Liste des contacts
+// Liste des avis
 // --------------------------------------------------------------------------
     public Vector<Avis> lireListe() throws SQLException
     {
@@ -200,7 +198,7 @@ public class AvisDAO
     }
 
 // --------------------------------------------------------------------------
-// Liste des colonnes de la table CONTACT
+// Liste des colonnes de la table AVIS
 // --------------------------------------------------------------------------
     public Vector<Colonne> getListeColonnes()
     {

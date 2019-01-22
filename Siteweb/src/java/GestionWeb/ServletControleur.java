@@ -1,7 +1,7 @@
 package GestionWeb;
 
 // ==========================================================================
-// ServletControleur.java : servlet d'accueil du projet gestionContactMVC2
+// ServletControleur.java : servlet d'accueil du projet Siteweb
 // ==========================================================================
 import java.io.*;
 import java.sql.Connection;
@@ -118,21 +118,6 @@ public class ServletControleur extends HttpServlet
                 }
                 break;
 
-// --------------------------------------------------------------------------
-// On vient de l'ecran jspModif
-// --------------------------------------------------------------------------
-           /* case 2:
-                choixAction = request.getParameter("choixAction");
-
-                if (choixAction.compareTo("Annuler") == 0)
-                {
-                    jsp = traitementModif.annulationModif(request);
-                }
-                else
-                {
-                    jsp = traitementModif.enregModif(request);
-                } 
-                break; */
 
             default:
                 session = request.getSession();

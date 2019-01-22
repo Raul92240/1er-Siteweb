@@ -39,15 +39,7 @@ public class TraitementAccueil
         AnnonceDAO annonceDAO;
 
 // --------------------------------------------------------------------------
-// L'objet AnnonceDAO est une variable locale de la methode. Elle est creee a
-// chaque appel (et liberee a la fin). Il s'agit d'eviter le melange de
-// donnees entre plusieurs utilisateurs. En effet, la ServletControleur est
-// instanciée une fois. La classe TraitementAccueil une fois également. Si
-// l'objet AnnonceDAO etait declare en propriete de la classe
-// TraitementAccueil, elle serait commune a tous les utilisateurs. Or, un
-// objet ContactDAO contient une propriete de type JeuResultat qui est
-// modifiee a chaque lecture dans la base.
-// --------------------------------------------------------------------------
+
         accesBase = new AccesBase(base);
         try
         {
